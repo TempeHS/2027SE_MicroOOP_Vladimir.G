@@ -23,4 +23,4 @@ while True:
     else:
         led.value(True)  # turn on the LED
         led2.value(False)  # turn off the LED2
-    sleep(1)
+    sleep(0.1)

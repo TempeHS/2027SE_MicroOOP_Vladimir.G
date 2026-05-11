@@ -6,7 +6,7 @@ import uos
 from machine import Pin
 
 # File name of the script to import
-file_name = "digital_sensor"
+file_name = "pulse_width_modulation.py"
 
 SCRIPT_DIRECTORY = "/py_scripts"
 CONTEXT_RADIUS = 2
