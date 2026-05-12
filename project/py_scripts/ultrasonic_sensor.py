@@ -57,7 +57,7 @@ def get_distance():
 while True:
     dist = get_distance()
     if dist is not None:
-        mapped_value = map_range(dist, 0, 410, 0, 180)  # adjust range as needed
+        mapped_value = map_range(dist, 0, 50, 0, 180)  # adjust range as needed
         servo.duty_ns(set_angle(mapped_value) * 1000)
     else:
         print("Out of range")
